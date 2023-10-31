@@ -6,7 +6,8 @@
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
-		"ghcr.io/devcontainers-contrib/features/dive:1": {}
+		"ghcr.io/devcontainers-contrib/features/dive:1": {},
+		"ghcr.io/devcontainers-contrib/features/trivy:1":{}
 	},
 	"mounts": [{"type": "bind","source": "/Users/ryoya/.ssh","target": "/home/vscode/.ssh"}]
 
